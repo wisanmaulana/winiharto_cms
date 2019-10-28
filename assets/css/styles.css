@@ -1,0 +1,260 @@
+body {
+  font-family: 'Raleway', sans-serif;
+  font-size:12px;
+  color: #484848;
+  background: #eeeeee;
+}
+
+a,h1,h2,h3,h4,p,li{
+
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus {
+color: #fff;
+background-color: #094164;
+border-radius:4px;
+/*padding:10px; 20px;10px;15px !important; */
+margin-top:1px;
+}
+
+ul{
+	padding: 0;
+	margin: 0;
+}
+/* =================================== border box*/
+    .border-box{ border: 2px solid #454545; padding: 20px; }
+.border-box span{ font-size: 46px; color: #454545; display: inline-block; margin-bottom: 17px; transition: all .2s ease; -webkit-transition: all .2s ease; -moz-transition: all .2s ease; position: relative; bottom: 0px; }
+.border-box h6{ margin-bottom: 5px; letter-spacing: 2px; margin-right: -2px; }
+.border-box .horizontal-line{ opacity: 0.8; }
+.border-gold{ border:  2px solid #E1DED5;}
+
+.border-box:hover span{ margin-bottom: 2px; }
+
+.navbarstructure{
+padding:15px; 
+background-color:#09598A;
+border-radius:0px;;
+margin-bottom:0px !important;
+}
+
+.logoset{
+width:120px;
+margin-top:5px;
+margin-right:30px;
+}
+.menutop ul li a{
+color:#fff;
+}
+
+.menutab_login{
+margin-top:10px;
+}
+
+a.list-group-item:hover, a.list-group-item:focus {
+text-decoration: none;
+background-color: #eceff1 !important; 
+}
+
+.joblist {
+padding:0 14px 0px 14px;
+padding-top:0px;
+padding-bottom;0px;
+}
+
+.front-img{
+background-image: url("../../assets/img/slider_img/slider3.jpg");
+background-position:center;
+background-size:cover;
+background-repeat:no-repeat;
+
+padding-top:0px;
+min-height:500px; 
+position: relative;
+}
+
+.stetment_home{
+text-align: left;
+color:#fff;
+}
+
+.searchbar_position{
+background: rgba(0,0,0,0.45);
+min-height:100px;
+bottom:0px;
+position:absolute;
+width: 100%;
+}
+
+.content_search{
+padding:22px 30px 22px 30px;
+}
+
+.outer{
+background-color: #f3f3f3;
+}
+
+.main_content{
+min-height:800px;
+padding:15px;
+background-color: #FFF;
+}
+
+.company_list{
+border-radius: 0px !important;
+}
+
+.company_list_img{
+width:350px;
+left: 0; 
+right: 0;
+top: 0;
+bottom: 0;
+padding:10px;
+}
+
+.companylistbutton{
+width:210px;
+}
+
+.thumnailcompanyslider{
+/*height:230px !important;*/
+}
+
+.thumnailcompanyslider{
+/*height:230px !important;*/
+}
+.sliderthumwrapper{
+padding:3px;
+height: 100px;
+margin-bottom:5px;
+}
+
+.sliderthumimg{
+max-height:100%;  
+position:absolute;
+margin: auto;
+left: 0; 
+right: 0;
+top: 0;
+bottom: 0;
+padding:10px;
+}
+/*-------thumnail company slider------------*/
+.demo .item{
+margin-bottom: 60px;
+}
+
+.content-slider li{		
+text-align: center;
+color: #FFF;
+min-height:100px;
+}
+
+.content-slider h3 {
+margin: 0;
+padding: 70px 0;
+}
+/*----------page browse job--*/
+.list-group-item:hover{
+background-color:#eceff1;	
+}
+.browsepaging{
+border:1px solid #dddddd;
+border-radius: 3px; 
+
+}
+.browseleftsearch{
+border:1px solid #dddddd;
+border-radius:4px;
+padding-bottom:20px;
+background-color:#f8f8f8;
+}
+/*-----employer page------*/
+.bgbox{
+	background-color:#ebebf1 ;
+}
+ 
+/*---------end of thumnail slider----------*/
+
+.footer {
+font-color:#FFF !important;
+}
+
+.bordertest{border:1px solid #F00}
+.huge {
+    font-size: 40px;
+}
+.panel-green {
+    border-color: #5cb85c;
+}
+
+.panel-green .panel-heading {
+    border-color: #5cb85c;
+    color: #fff;
+    background-color: #5cb85c;
+}
+
+.panel-green a {
+    color: #5cb85c;
+}
+
+.panel-green a:hover {
+    color: #3d8b3d;
+}
+
+.panel-red {
+    border-color: #d9534f;
+}
+
+.panel-red .panel-heading {
+    border-color: #d9534f;
+    color: #fff;
+    background-color: #d9534f;
+}
+
+.panel-red a {
+    color: #d9534f;
+}
+
+.panel-red a:hover {
+    color: #b52b27;
+}
+
+.panel-yellow {
+    border-color: #f0ad4e;
+}
+
+.panel-yellow .panel-heading {
+    border-color: #f0ad4e;
+    color: #fff;
+    background-color: #f0ad4e;
+}
+
+.panel-yellow a {
+    color: #f0ad4e;
+}
+
+.panel-yellow a:hover {
+    color: #df8a13;
+}
+.label-green {
+	background-color:#4AD99A;
+}
+
+.alert {
+	width: 300px;
+	padding-top: 12px;
+	padding-left: 15px;
+	background: #eff6f6;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+	border: solid 1px #ccc;
+	font-size: 15px;
+	position: fixed;
+	color: red;
+	z-index: 99999;
+	right: -10px;
+	bottom: 30px;
+}	

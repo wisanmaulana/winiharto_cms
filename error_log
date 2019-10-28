@@ -1,0 +1,118 @@
+[24-Aug-2019 20:05:02 Asia/Krasnoyarsk] PHP Fatal error:  Call to undefined function base_url() in /home/winiadm/public_html/application/views/new-template/templates/header.php on line 27
+[24-Aug-2019 20:06:21 Asia/Krasnoyarsk] PHP Fatal error:  Call to undefined function base_url() in /home/winiadm/public_html/application/views/new-template/templates/header.php on line 27
+[24-Aug-2019 20:06:25 Asia/Krasnoyarsk] PHP Fatal error:  Call to undefined function base_url() in /home/winiadm/public_html/application/views/new-template/templates/header.php on line 27
+[24-Aug-2019 20:56:23 Asia/Krasnoyarsk] PHP Fatal error:  Call to a member function select_product() on a non-object in /home/winiadm/public_html/application/controllers/Product.php on line 26
+[24-Aug-2019 21:04:24 Asia/Krasnoyarsk] PHP Fatal error:  Call to a member function num_rows() on a non-object in /home/winiadm/public_html/application/views/pages/products/industrial/search_results.php on line 66
+[25-Aug-2019 02:04:44 Asia/Krasnoyarsk] PHP Fatal error:  Call to a member function result() on a non-object in /home/winiadm/public_html/application/models/Model_product.php on line 82
+[26-Aug-2019 05:43:15 Asia/Krasnoyarsk] PHP Fatal error:  Call to a member function result() on a non-object in /home/winiadm/public_html/application/models/Model_product.php on line 82
+[26-Aug-2019 16:27:39 Asia/Krasnoyarsk] PHP Fatal error:  Call to a member function num_rows() on a non-object in /home/winiadm/public_html/application/views/pages/products/industrial/search_results.php on line 66
+[28-Aug-2019 22:52:54 Asia/Krasnoyarsk] PHP Fatal error:  Call to a member function result() on a non-object in /home/winiadm/public_html/application/models/Model_product.php on line 82
+[29-Aug-2019 03:11:17 Asia/Krasnoyarsk] PHP Fatal error:  Call to a member function result() on a non-object in /home/winiadm/public_html/application/models/Model_product.php on line 82
+[29-Aug-2019 03:19:46 Asia/Krasnoyarsk] PHP Fatal error:  Call to a member function result() on a non-object in /home/winiadm/public_html/application/models/Model_product.php on line 82
+[30-Aug-2019 04:43:53 Asia/Krasnoyarsk] PHP Fatal error:  Call to a member function result() on a non-object in /home/winiadm/public_html/application/models/Model_product.php on line 82
+[30-Aug-2019 16:32:05 Asia/Krasnoyarsk] PHP Fatal error:  Call to a member function result() on a non-object in /home/winiadm/public_html/application/models/Model_product.php on line 82
+[31-Aug-2019 06:34:38 Asia/Krasnoyarsk] PHP Fatal error:  Call to a member function result() on a non-object in /home/winiadm/public_html/application/models/Model_product.php on line 82
+[01-Sep-2019 09:07:04 Asia/Krasnoyarsk] PHP Fatal error:  Call to a member function result() on a non-object in /home/winiadm/public_html/application/models/Model_product.php on line 82
+[01-Sep-2019 11:18:25 Asia/Krasnoyarsk] PHP Fatal error:  Call to a member function result() on a non-object in /home/winiadm/public_html/application/models/Model_product.php on line 82
+[02-Sep-2019 11:01:52 Asia/Krasnoyarsk] PHP Fatal error:  Call to a member function result() on a non-object in /home/winiadm/public_html/application/models/Model_product.php on line 82
+[04-Sep-2019 00:18:13 Asia/Krasnoyarsk] PHP Fatal error:  Call to a member function result() on a non-object in /home/winiadm/public_html/application/models/Model_product.php on line 82
+[04-Sep-2019 03:22:17 Asia/Krasnoyarsk] PHP Fatal error:  Call to a member function num_rows() on a non-object in /home/winiadm/public_html/application/views/pages/products/industrial/search_results.php on line 66
+[04-Sep-2019 06:24:32 Asia/Krasnoyarsk] PHP Fatal error:  Call to a member function result() on a non-object in /home/winiadm/public_html/application/models/Model_product.php on line 82
+[04-Sep-2019 08:17:13 Asia/Krasnoyarsk] PHP Fatal error:  Call to a member function result() on a non-object in /home/winiadm/public_html/application/models/Model_product.php on line 82
+[05-Sep-2019 17:14:37 Asia/Krasnoyarsk] PHP Fatal error:  Call to a member function num_rows() on a non-object in /home/winiadm/public_html/application/views/pages/products/industrial/search_results.php on line 66
+[05-Sep-2019 20:14:45 Asia/Krasnoyarsk] PHP Fatal error:  Call to a member function result() on a non-object in /home/winiadm/public_html/application/models/Model_product.php on line 82
+[07-Sep-2019 06:40:50 Asia/Krasnoyarsk] PHP Fatal error:  Call to a member function num_rows() on a non-object in /home/winiadm/public_html/application/views/pages/products/industrial/search_results.php on line 66
+[08-Sep-2019 20:23:46 Asia/Krasnoyarsk] PHP Fatal error:  Call to a member function result() on a non-object in /home/winiadm/public_html/application/models/Model_product.php on line 82
+[08-Sep-2019 23:22:16 Asia/Krasnoyarsk] PHP Fatal error:  Call to a member function result() on a non-object in /home/winiadm/public_html/application/models/Model_product.php on line 82
+[09-Sep-2019 14:48:58 Asia/Krasnoyarsk] PHP Fatal error:  Call to a member function result() on a non-object in /home/winiadm/public_html/application/models/Model_product.php on line 82
+[09-Sep-2019 17:51:14 Asia/Krasnoyarsk] PHP Fatal error:  Call to a member function result() on a non-object in /home/winiadm/public_html/application/models/Model_product.php on line 82
+[10-Sep-2019 03:45:55 Asia/Krasnoyarsk] PHP Fatal error:  Call to a member function result() on a non-object in /home/winiadm/public_html/application/models/Model_product.php on line 82
+[10-Sep-2019 16:48:16 Asia/Krasnoyarsk] PHP Fatal error:  Call to a member function result() on a non-object in /home/winiadm/public_html/application/models/Model_product.php on line 82
+[10-Sep-2019 17:07:57 Asia/Krasnoyarsk] PHP Fatal error:  Call to a member function num_rows() on a non-object in /home/winiadm/public_html/application/views/pages/products/industrial/search_results.php on line 66
+[11-Sep-2019 23:03:00 Asia/Krasnoyarsk] PHP Fatal error:  Call to a member function num_rows() on a non-object in /home/winiadm/public_html/application/views/pages/products/industrial/search_results.php on line 66
+[12-Sep-2019 01:11:07 Asia/Krasnoyarsk] PHP Fatal error:  Call to a member function result() on a non-object in /home/winiadm/public_html/application/models/Model_product.php on line 82
+[12-Sep-2019 23:24:09 Asia/Krasnoyarsk] PHP Fatal error:  Call to a member function result() on a non-object in /home/winiadm/public_html/application/models/Model_product.php on line 82
+[13-Sep-2019 23:49:51 Asia/Krasnoyarsk] PHP Fatal error:  Call to a member function result() on a non-object in /home/winiadm/public_html/application/models/Model_product.php on line 82
+[14-Sep-2019 19:27:56 Asia/Krasnoyarsk] PHP Fatal error:  Call to a member function result() on a non-object in /home/winiadm/public_html/application/models/Model_product.php on line 82
+[15-Sep-2019 17:35:24 Asia/Krasnoyarsk] PHP Fatal error:  Call to a member function result() on a non-object in /home/winiadm/public_html/application/models/Model_product.php on line 82
+[15-Sep-2019 21:42:06 Asia/Krasnoyarsk] PHP Fatal error:  Call to a member function result() on a non-object in /home/winiadm/public_html/application/models/Model_product.php on line 82
+[17-Sep-2019 06:27:29 Asia/Krasnoyarsk] PHP Fatal error:  Call to a member function result() on a non-object in /home/winiadm/public_html/application/models/Model_product.php on line 82
+[21-Sep-2019 20:48:20 Asia/Krasnoyarsk] PHP Fatal error:  Call to a member function result() on a non-object in /home/winiadm/public_html/application/models/Model_product.php on line 82
+[23-Sep-2019 18:17:06 Asia/Krasnoyarsk] PHP Fatal error:  Call to a member function result() on a non-object in /home/winiadm/public_html/application/models/Model_product.php on line 82
+[26-Sep-2019 23:36:55 Asia/Krasnoyarsk] PHP Fatal error:  Call to a member function result() on a non-object in /home/winiadm/public_html/application/models/Model_product.php on line 82
+[27-Sep-2019 07:34:00 Asia/Krasnoyarsk] PHP Fatal error:  Call to a member function result() on a non-object in /home/winiadm/public_html/application/models/Model_product.php on line 82
+[27-Sep-2019 23:39:43 Asia/Krasnoyarsk] PHP Fatal error:  Call to a member function result() on a non-object in /home/winiadm/public_html/application/views/templates/header.php on line 189
+[27-Sep-2019 23:57:24 Asia/Krasnoyarsk] PHP Fatal error:  Call to a member function result() on a non-object in /home/winiadm/public_html/application/models/Model_product.php on line 82
+[28-Sep-2019 06:27:38 Asia/Krasnoyarsk] PHP Fatal error:  Call to a member function result() on a non-object in /home/winiadm/public_html/application/models/Model_product.php on line 82
+[28-Sep-2019 12:31:49 Asia/Krasnoyarsk] PHP Fatal error:  Call to a member function result() on a non-object in /home/winiadm/public_html/application/models/Model_product.php on line 82
+[30-Sep-2019 11:18:49 Asia/Krasnoyarsk] PHP Fatal error:  Call to a member function result() on a non-object in /home/winiadm/public_html/application/models/Model_product.php on line 82
+[30-Sep-2019 17:10:59 Asia/Krasnoyarsk] PHP Fatal error:  Call to a member function result() on a non-object in /home/winiadm/public_html/application/models/Model_product.php on line 82
+[30-Sep-2019 20:42:20 Asia/Krasnoyarsk] PHP Fatal error:  Call to a member function result() on a non-object in /home/winiadm/public_html/application/models/Model_product.php on line 82
+[03-Oct-2019 06:52:53 Asia/Krasnoyarsk] PHP Fatal error:  Call to a member function result() on a non-object in /home/winiadm/public_html/application/models/Model_product.php on line 82
+[04-Oct-2019 04:45:46 Asia/Krasnoyarsk] PHP Fatal error:  Call to a member function result() on a non-object in /home/winiadm/public_html/application/models/Model_product.php on line 82
+[04-Oct-2019 21:53:23 Asia/Krasnoyarsk] PHP Fatal error:  Call to a member function result() on a non-object in /home/winiadm/public_html/application/models/Model_product.php on line 82
+[06-Oct-2019 16:23:32 Asia/Krasnoyarsk] PHP Fatal error:  Call to a member function result() on a non-object in /home/winiadm/public_html/application/models/Model_product.php on line 82
+[06-Oct-2019 20:52:49 Asia/Krasnoyarsk] PHP Fatal error:  Call to a member function result() on a non-object in /home/winiadm/public_html/application/models/Model_product.php on line 82
+[07-Oct-2019 08:58:34 Asia/Krasnoyarsk] PHP Fatal error:  Call to a member function result() on a non-object in /home/winiadm/public_html/application/views/templates/header.php on line 189
+[07-Oct-2019 08:58:40 Asia/Krasnoyarsk] PHP Fatal error:  Call to a member function result() on a non-object in /home/winiadm/public_html/application/views/templates/header.php on line 189
+[07-Oct-2019 08:58:40 Asia/Krasnoyarsk] PHP Fatal error:  Call to a member function result() on a non-object in /home/winiadm/public_html/application/views/templates/header.php on line 189
+[07-Oct-2019 08:58:42 Asia/Krasnoyarsk] PHP Fatal error:  Call to a member function result() on a non-object in /home/winiadm/public_html/application/views/templates/header.php on line 189
+[07-Oct-2019 08:59:50 Asia/Krasnoyarsk] PHP Fatal error:  Call to a member function result() on a non-object in /home/winiadm/public_html/application/views/templates/header.php on line 189
+[07-Oct-2019 08:59:52 Asia/Krasnoyarsk] PHP Fatal error:  Call to a member function result() on a non-object in /home/winiadm/public_html/application/views/templates/header.php on line 189
+[07-Oct-2019 09:00:08 Asia/Krasnoyarsk] PHP Fatal error:  Call to a member function result() on a non-object in /home/winiadm/public_html/application/views/templates/header.php on line 189
+[07-Oct-2019 09:00:11 Asia/Krasnoyarsk] PHP Fatal error:  Call to a member function result() on a non-object in /home/winiadm/public_html/application/views/templates/header.php on line 189
+[07-Oct-2019 09:03:41 Asia/Krasnoyarsk] PHP Fatal error:  Call to a member function result() on a non-object in /home/winiadm/public_html/application/views/templates/header.php on line 189
+[07-Oct-2019 09:03:58 Asia/Krasnoyarsk] PHP Fatal error:  Call to a member function result() on a non-object in /home/winiadm/public_html/application/views/templates/header.php on line 189
+[07-Oct-2019 09:04:26 Asia/Krasnoyarsk] PHP Fatal error:  Call to a member function result() on a non-object in /home/winiadm/public_html/application/views/templates/header.php on line 189
+[07-Oct-2019 09:38:24 Asia/Krasnoyarsk] PHP Fatal error:  Call to a member function result() on a non-object in /home/winiadm/public_html/application/models/Model_product.php on line 8
+[07-Oct-2019 09:59:53 Asia/Krasnoyarsk] PHP Fatal error:  Call to a member function result() on a non-object in /home/winiadm/public_html/application/views/templates/header.php on line 189
+[07-Oct-2019 10:00:05 Asia/Krasnoyarsk] PHP Fatal error:  Call to a member function result() on a non-object in /home/winiadm/public_html/application/views/templates/header.php on line 189
+[07-Oct-2019 10:00:16 Asia/Krasnoyarsk] PHP Fatal error:  Call to a member function result() on a non-object in /home/winiadm/public_html/application/views/templates/header.php on line 189
+[07-Oct-2019 10:00:18 Asia/Krasnoyarsk] PHP Fatal error:  Call to a member function result() on a non-object in /home/winiadm/public_html/application/views/templates/header.php on line 189
+[07-Oct-2019 10:00:21 Asia/Krasnoyarsk] PHP Fatal error:  Call to a member function result() on a non-object in /home/winiadm/public_html/application/views/templates/header.php on line 189
+[07-Oct-2019 10:00:22 Asia/Krasnoyarsk] PHP Fatal error:  Call to a member function result() on a non-object in /home/winiadm/public_html/application/views/templates/header.php on line 189
+[07-Oct-2019 10:00:30 Asia/Krasnoyarsk] PHP Fatal error:  Call to a member function result() on a non-object in /home/winiadm/public_html/application/views/templates/header.php on line 189
+[07-Oct-2019 10:00:43 Asia/Krasnoyarsk] PHP Fatal error:  Call to a member function result() on a non-object in /home/winiadm/public_html/application/views/templates/header.php on line 189
+[07-Oct-2019 10:00:54 Asia/Krasnoyarsk] PHP Fatal error:  Call to a member function result() on a non-object in /home/winiadm/public_html/application/views/templates/header.php on line 189
+[07-Oct-2019 10:01:14 Asia/Krasnoyarsk] PHP Fatal error:  Call to a member function result() on a non-object in /home/winiadm/public_html/application/views/templates/header.php on line 189
+[07-Oct-2019 10:01:31 Asia/Krasnoyarsk] PHP Fatal error:  Call to a member function result() on a non-object in /home/winiadm/public_html/application/views/templates/header.php on line 189
+[07-Oct-2019 10:02:16 Asia/Krasnoyarsk] PHP Fatal error:  Call to a member function result() on a non-object in /home/winiadm/public_html/application/views/templates/header.php on line 189
+[07-Oct-2019 10:02:22 Asia/Krasnoyarsk] PHP Fatal error:  Call to a member function result() on a non-object in /home/winiadm/public_html/application/views/templates/header.php on line 189
+[07-Oct-2019 10:02:30 Asia/Krasnoyarsk] PHP Fatal error:  Call to a member function result() on a non-object in /home/winiadm/public_html/application/views/templates/header.php on line 189
+[07-Oct-2019 10:02:41 Asia/Krasnoyarsk] PHP Fatal error:  Call to a member function result() on a non-object in /home/winiadm/public_html/application/views/templates/header.php on line 189
+[07-Oct-2019 10:03:20 Asia/Krasnoyarsk] PHP Fatal error:  Call to a member function result() on a non-object in /home/winiadm/public_html/application/models/Model_product.php on line 8
+[07-Oct-2019 10:07:05 Asia/Krasnoyarsk] PHP Fatal error:  Call to a member function result() on a non-object in /home/winiadm/public_html/application/views/templates/header.php on line 189
+[07-Oct-2019 10:07:07 Asia/Krasnoyarsk] PHP Fatal error:  Call to a member function result() on a non-object in /home/winiadm/public_html/application/views/templates/header.php on line 189
+[07-Oct-2019 10:07:11 Asia/Krasnoyarsk] PHP Fatal error:  Call to a member function result() on a non-object in /home/winiadm/public_html/application/views/templates/header.php on line 189
+[07-Oct-2019 10:07:27 Asia/Krasnoyarsk] PHP Fatal error:  Call to a member function result() on a non-object in /home/winiadm/public_html/application/views/templates/header.php on line 189
+[07-Oct-2019 10:07:28 Asia/Krasnoyarsk] PHP Fatal error:  Call to a member function result() on a non-object in /home/winiadm/public_html/application/views/templates/header.php on line 189
+[07-Oct-2019 10:07:29 Asia/Krasnoyarsk] PHP Fatal error:  Call to a member function result() on a non-object in /home/winiadm/public_html/application/views/templates/header.php on line 189
+[07-Oct-2019 13:13:24 Asia/Krasnoyarsk] PHP Parse error:  syntax error, unexpected T_OBJECT_OPERATOR, expecting ',' or ';' in /home/winiadm/public_html/application/views/pages/vacancy.php on line 70
+[07-Oct-2019 13:25:02 Asia/Krasnoyarsk] PHP Warning:  phpinfo() [<a href='function.phpinfo'>function.phpinfo</a>]: It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Asia/Krasnoyarsk' for 'WIB/7.0/no DST' instead in /home/winiadm/public_html/phpinfo.php on line 10
+[07-Oct-2019 13:25:02 Asia/Krasnoyarsk] PHP Fatal error:  Class 'Java' not found in /home/winiadm/public_html/phpinfo.php on line 12
+[07-Oct-2019 13:31:46 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: curl in /home/winiadm/public_html/test.php on line 5
+[07-Oct-2019 13:31:46 Asia/Krasnoyarsk] PHP Warning:  curl_setopt() expects parameter 1 to be resource, null given in /home/winiadm/public_html/test.php on line 5
+[07-Oct-2019 13:31:46 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: curl in /home/winiadm/public_html/test.php on line 6
+[07-Oct-2019 13:31:46 Asia/Krasnoyarsk] PHP Warning:  curl_setopt() expects parameter 1 to be resource, null given in /home/winiadm/public_html/test.php on line 9
+[07-Oct-2019 13:31:46 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: curl in /home/winiadm/public_html/test.php on line 10
+[07-Oct-2019 13:31:46 Asia/Krasnoyarsk] PHP Warning:  curl_setopt() expects parameter 1 to be resource, null given in /home/winiadm/public_html/test.php on line 10
+[07-Oct-2019 13:31:46 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: curl in /home/winiadm/public_html/test.php on line 11
+[07-Oct-2019 13:31:46 Asia/Krasnoyarsk] PHP Warning:  curl_setopt() expects parameter 1 to be resource, null given in /home/winiadm/public_html/test.php on line 11
+[07-Oct-2019 13:31:46 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: curl in /home/winiadm/public_html/test.php on line 14
+[07-Oct-2019 13:31:46 Asia/Krasnoyarsk] PHP Warning:  curl_exec() expects parameter 1 to be resource, null given in /home/winiadm/public_html/test.php on line 14
+[07-Oct-2019 13:31:47 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: curl in /home/winiadm/public_html/test.php on line 5
+[07-Oct-2019 13:31:47 Asia/Krasnoyarsk] PHP Warning:  curl_setopt() expects parameter 1 to be resource, null given in /home/winiadm/public_html/test.php on line 5
+[07-Oct-2019 13:31:47 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: curl in /home/winiadm/public_html/test.php on line 6
+[07-Oct-2019 13:31:47 Asia/Krasnoyarsk] PHP Warning:  curl_setopt() expects parameter 1 to be resource, null given in /home/winiadm/public_html/test.php on line 9
+[07-Oct-2019 13:31:47 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: curl in /home/winiadm/public_html/test.php on line 10
+[07-Oct-2019 13:31:47 Asia/Krasnoyarsk] PHP Warning:  curl_setopt() expects parameter 1 to be resource, null given in /home/winiadm/public_html/test.php on line 10
+[07-Oct-2019 13:31:47 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: curl in /home/winiadm/public_html/test.php on line 11
+[07-Oct-2019 13:31:47 Asia/Krasnoyarsk] PHP Warning:  curl_setopt() expects parameter 1 to be resource, null given in /home/winiadm/public_html/test.php on line 11
+[07-Oct-2019 13:31:47 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: curl in /home/winiadm/public_html/test.php on line 14
+[07-Oct-2019 13:31:47 Asia/Krasnoyarsk] PHP Warning:  curl_exec() expects parameter 1 to be resource, null given in /home/winiadm/public_html/test.php on line 14
+[08-Oct-2019 10:31:45 Asia/Krasnoyarsk] PHP Fatal error:  Call to a member function result() on a non-object in /home/winiadm/public_html/application/models/Model_product.php on line 82
+[08-Oct-2019 19:59:49 Asia/Krasnoyarsk] PHP Fatal error:  Call to a member function result() on a non-object in /home/winiadm/public_html/application/models/Model_product.php on line 82
+[10-Oct-2019 12:38:58 Asia/Krasnoyarsk] PHP Fatal error:  Call to a member function result() on a non-object in /home/winiadm/public_html/application/models/Model_product.php on line 82
+[12-Oct-2019 21:01:33 Asia/Krasnoyarsk] PHP Fatal error:  Call to a member function result() on a non-object in /home/winiadm/public_html/application/models/Model_product.php on line 82
+[13-Oct-2019 19:35:44 Asia/Krasnoyarsk] PHP Fatal error:  Call to a member function result() on a non-object in /home/winiadm/public_html/application/models/Model_product.php on line 82
+[14-Oct-2019 19:33:59 Asia/Krasnoyarsk] PHP Fatal error:  Call to a member function result() on a non-object in /home/winiadm/public_html/application/models/Model_product.php on line 82
