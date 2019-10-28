@@ -27,6 +27,7 @@ class Category_cms extends CI_Controller {
 	}
 
 	function addCategory(){
+		 $this->output->enable_profiler(TRUE);
 
     	//date_default_timezone_set('Asia/Jakarta');
 
@@ -34,7 +35,7 @@ class Category_cms extends CI_Controller {
 		$idCategory = $this->input->post('id_category');
 		$nameBrand = $this->input->post('name_brand');
 		$idBrand = $this->input->post('id_brand');
-		$InsertData=$this->cms->add_brand($idCategory,$nameBrand,$idBrand);
+		$InsertData=$this->cms->add_category($idCategory,$nameBrand,$idBrand);
 
 		// --------- alert -------------
 		$message="Success for insert data Test !!!";
@@ -64,11 +65,12 @@ class Category_cms extends CI_Controller {
 		//date_default_timezone_set('Asia/Jakarta');
 
 		$this->load->model('Model_cms', 'cms');
+		$id = $this->input->post('id');
 		$idCategory = $this->input->post('id_category');
 		$nameBrand = $this->input->post('name_brand');
 		$idBrand = $this->input->post('id_brand');
 		
-		$this->cms->update_category($idCategory,$nameBrand,$idBrand);
+		$this->cms->update_category($id,$idCategory,$nameBrand,$idBrand);
 
 		 redirect('cms/category');
 	}

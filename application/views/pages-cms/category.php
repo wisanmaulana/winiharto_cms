@@ -31,7 +31,8 @@
                   <?php
                   $no = 1;
                   foreach($category->result() as $dt){
-                      $id = $dt->ID;
+                      $id = $dt->REC_ID;
+                      $idCategory = $dt->ID;
                       $name = $dt->NAME;
                       $brand_id = $dt->BRAND_ID;
                     echo "<tr>"; ?>
@@ -39,7 +40,7 @@
                     <?php echo $no++;?>
                   </td>
                   <td>
-                    <?php echo $id; ?>
+                    <?php echo $idCategory; ?>
                   </td>
                   <td>
                     <?php echo $name; ?>

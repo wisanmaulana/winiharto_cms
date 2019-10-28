@@ -31,7 +31,8 @@
                   <?php
                   $no = 1;
                   foreach($brand->result() as $dt){
-                      $id = $dt->ID;
+                      $id = $dt->REC_ID;
+                      $idBrand = $dt->ID;
                       $name = $dt->NAME;
                       $description = $dt->DESCRIPTION;
                     echo "<tr>"; ?>
@@ -39,7 +40,7 @@
                     <?php echo $no++;?>
                   </td>
                   <td>
-                    <?php echo $id; ?>
+                    <?php echo $idBrand; ?>
                   </td>
                   <td>
                     <?php echo $name; ?>

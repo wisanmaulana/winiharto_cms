@@ -142,32 +142,32 @@
   }
 
   function add_brand($idBrand, $nameBrand,$descBrand){
-    $query = "INSERT INTO w_brand(ID,NAME,DESCRIPTION) values ('".$idBrand."','".$nameBrand."','".$descBrand."')";
+    $query = "INSERT INTO g_brand(ID,NAME,DESCRIPTION) values ('".$idBrand."','".$nameBrand."','".$descBrand."')";
     $results = $this->db->query($query);
     if($results) return 1;
     else return 0;
   }
 
-   function update_brand($idBrand, $nameBrand,$descBrand){
+   function update_brand($id,$idBrand, $nameBrand,$descBrand){
             $data = array(
                     'ID' => $idBrand,
                     'NAME' => $nameBrand,
                     'DESCRIPTION' => $descBrand
             );
-            $this->db->where('ID', $idBrand);
+            $this->db->where('REC_ID', $id);
             $this->db->update('g_brand', $data);
          }
 
-        function delete_brand($idBrand){
-            $this->db->where('ID', $idBrand);
+        function delete_brand($id){
+            $this->db->where('REC_ID', $id);
             $this->db->delete('g_brand');
         }
 
-         function singleBrand($idBrand) {
+         function singleBrand($id) {
 
           $this->db->select('*');
           $this->db->from('g_brand');
-          $this->db->where('ID', $idBrand);
+          $this->db->where('REC_ID', $id);
 
           $query = $this->db->get();
 
@@ -256,33 +256,40 @@
     return $query;
   }
 
-  function add_category($idCategory, $nameBrand,$idBrand){
+  function add_category($idCategory,$nameBrand,$idBrand){
     $query = "INSERT INTO g_brand_category(ID,NAME,BRAND_ID) values ('".$idCategory."','".$nameBrand."','".$idBrand."')";
     $results = $this->db->query($query);
     if($results) return 1;
     else return 0;
   }
 
-   function update_category($idCategory, $nameBrand,$idBrand){
+  // function add_brand($idBrand, $nameBrand,$descBrand){
+  //   $query = "INSERT INTO g_brand(ID,NAME,DESCRIPTION) values ('".$idBrand."','".$nameBrand."','".$descBrand."')";
+  //   $results = $this->db->query($query);
+  //   if($results) return 1;
+  //   else return 0;
+  // }
+
+   function update_category($id,$idCategory,$nameBrand,$idBrand){
             $data = array(
                     'ID' => $idCategory,
                     'NAME' => $nameBrand,
                     'BRAND_ID' => $idBrand
             );
-            $this->db->where('ID', $idCategory);
+            $this->db->where('REC_ID', $id);
             $this->db->update('g_brand_category', $data);
          }
 
-        function delete_category($idCategory){
-            $this->db->where('ID', $idCategory);
+        function delete_category($id){
+            $this->db->where('REC_ID', $id);
             $this->db->delete('g_brand_category');
         }
 
-         function singleCategory($idCategory) {
+         function singleCategory($id) {
 
           $this->db->select('*');
           $this->db->from('g_brand_category');
-          $this->db->where('ID', $idCategory);
+          $this->db->where('REC_ID', $id);
 
           $query = $this->db->get();
 

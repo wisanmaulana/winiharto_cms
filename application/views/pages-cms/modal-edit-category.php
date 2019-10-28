@@ -13,7 +13,14 @@
   <!-- Edit TEST -->
   <div class="modal-body" style="font-size: 14px;">
   <div class="form-group row">
-     <input type="hidden" name="id_category" style="width: 100%" value="<?php echo $data->ID;?>">
+     <input type="hidden" name="id" style="width: 100%" value="<?php echo $data->REC_ID;?>">
+    <label class="col-sm-4 col-form-label" style="font-weight: bold;">ID BRAND</label>
+    <div class="col-sm-8">
+      <input type="text" name="id_category" class="form-control" value="<?php echo $data->ID;?>">
+    </div>
+  </div>
+
+  <div class="form-group row">
     <label class="col-sm-4 col-form-label" style="font-weight: bold;">BRAND NAME</label>
     <div class="col-sm-8">
       <input type="text" name="name_brand" class="form-control" value="<?php echo $data->NAME;?>">
@@ -21,7 +28,7 @@
   </div>
 
   <div class="form-group row">
-    <label class="col-sm-4 col-form-label" style="font-weight: bold;">Description</label>
+    <label class="col-sm-4 col-form-label" style="font-weight: bold;">BRAND ID</label>
     <div class="col-sm-8">
       <input type="text" name="id_brand" class="form-control" value="<?php echo $data->BRAND_ID;?>">
     </div>

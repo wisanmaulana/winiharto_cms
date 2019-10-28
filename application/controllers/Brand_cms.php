@@ -64,11 +64,12 @@ class Brand_cms extends CI_Controller {
 		//date_default_timezone_set('Asia/Jakarta');
 
 		$this->load->model('Model_cms', 'cms');
+		$id = $this->input->post('id');
 		$idBrand = $this->input->post('id_brand');
 		$nameBrand = $this->input->post('name_brand');
 		$descBrand = $this->input->post('desc_brand');
 		
-		$this->cms->update_brand($idBrand,$nameBrand,$descBrand);
+		$this->cms->update_brand($id,$idBrand,$nameBrand,$descBrand);
 
 		 redirect('cms/brand');
 	}
