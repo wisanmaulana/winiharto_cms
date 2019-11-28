@@ -52,19 +52,17 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 /*NEW ROUTES */
 $route['default_controller'] = 'Home/index';
 $route['home'] = 'Home/index';
-$route['about/about_us'] = 'About/about_us';
-$route['about/vision'] = 'About/vision';
-$route['about/customers'] = 'About/customers';
+$route['about_us'] = 'About/about_us';
+$route['vision'] = 'About/vision';
+$route['customers'] = 'About/customers';
 $route['workshop'] = 'Workshop';
 $route['contacts'] = 'Contacts';
 $route['distribution'] = 'Distribution';
 
 /* BRAND PRODUCTS */
-$route['brand/:any'] = 'Product/brand_subcategory/$1';
-$route['brand/:any/:any'] = 'Product/brand_category/$1';
-
-/* OUR PRODUCT ROUTE */
-$route['products/:any'] = 'Productproduct_category/$1';
+$route['brand']     = 'Product/brand';
+$route['product']   = 'Product/products';
+$route['products']  = 'Product/search';
 
 /* START CMS ROUTE */
 $route['cms'] = 'CMS';

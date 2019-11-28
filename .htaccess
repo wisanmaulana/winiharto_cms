@@ -2,5 +2,8 @@
 RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^(.*)$ index.php/$1 [L]
+RewriteRule ^(.*)$ index.php/$1 [L] 
 </IfModule>
+<FilesMatch ".(jpg|png|gif)$">
+ErrorDocument 404 "/assets/images/x-mark.png"
+</FilesMatch>
