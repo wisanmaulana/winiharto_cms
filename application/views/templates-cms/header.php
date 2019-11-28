@@ -21,5 +21,6 @@
   <link href="<?php echo base_url('assets/cms/vendor/datatables/dataTables.bootstrap4.css'); ?>" rel="stylesheet">
   <link rel="stylesheet" href="<?php echo base_url('assets/sweet-alert/sweetalert2.min.css');?>" />
   <script src="<?php echo base_url('assets/sweet-alert/sweetalert2.min.js');?>"></script>
+  <script src="<?php echo base_url('assets/template/js/jquery.min.js'); ?>"></script>
 
 </head>

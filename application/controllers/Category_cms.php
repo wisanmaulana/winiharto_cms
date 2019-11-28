@@ -22,12 +22,16 @@ class Category_cms extends CI_Controller {
 
 	public function getAddCategory()
 	{
+		$this->load->model("Model_cms");
 		$this->load->helper('form');
-		$this->load->view('pages-cms/modal-add-category');
+
+		$data['select_brand'] = $this->Model_cms->select_brand();//------- select brand 
+	    
+		$this->load->view('pages-cms/modal-add-category',$data); //-------- halaman modal nya
 	}
 
 	function addCategory(){
-		 $this->output->enable_profiler(TRUE);
+		 // $this->output->enable_profiler(TRUE);
 
     	//date_default_timezone_set('Asia/Jakarta');
 
@@ -57,6 +61,7 @@ class Category_cms extends CI_Controller {
 		$id = $this->input->get('id');
 		$this->load->model('Model_cms', 'cms');
 		$data['category'] = $this->cms->singleCategory($id);
+		$data['select_brand'] = $this->Model_cms->select_brand();//------- select brand 
  		$this->load->view('pages-cms/modal-edit-category', $data);
 	}
 
@@ -79,7 +84,7 @@ class Category_cms extends CI_Controller {
 		$this->load->model('Model_cms', 'cms');
 
 		$id = $this->input->post('deleteCategory');
-		$this->cms->delete_category($id,'w_brand_category');
+		$this->cms->delete_category($id,'g_brand_category');
 		redirect('cms/category');
 
 	}

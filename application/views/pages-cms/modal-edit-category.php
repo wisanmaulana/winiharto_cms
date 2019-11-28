@@ -28,11 +28,34 @@
   </div>
 
   <div class="form-group row">
+    <label class="col-sm-4 col-form-label" style="font-weight: bold; margin-right: 1em;">BRAND ID</label>
+    <select name="id_brand" class="custom-select" style="width: 200px;">
+      <!-- <option selected>Select Brand</option> -->
+      <?php
+      //------------ disini buat nampilin data yang di bawa tadi ...
+      //------------ 
+        foreach($select_brand->result() as $r_brand){
+          if($r_brand->ID==$data->BRAND_ID){
+          ?>
+           <option value="<?php echo $r_brand->ID?>" selected="selected"><?php echo $r_brand->ID?></option>
+          <?php
+        }else{
+          ?>
+          <option value="<?php echo $r_brand->ID?>"><?php echo $r_brand->ID?></option>
+        <?php
+          }
+        }
+      ?>
+    </select>
+      <!-- <input type="text" name="id_brand" class="form-control"> -->
+  </div>
+
+  <!-- <div class="form-group row">
     <label class="col-sm-4 col-form-label" style="font-weight: bold;">BRAND ID</label>
     <div class="col-sm-8">
       <input type="text" name="id_brand" class="form-control" value="<?php echo $data->BRAND_ID;?>">
     </div>
-  </div>
+  </div> -->
 </div>
 
 

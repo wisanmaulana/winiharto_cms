@@ -1,9 +1,9 @@
-<?php echo form_open_multipart('Category_cms/addCategory');?>
+<?php echo form_open_multipart('Subcategory_cms/addSubcategory');?>
 
 
 <!-- HEADER -->
 <div class="modal-header" style="background-color: #f5aa42  ;padding: 0.2rem;">
-  <p style="color: white;margin-top: 0.5em; margin-left: 0.5em; font-size: 20px; font-weight: bold;">Add Category</p>
+  <p style="color: white;margin-top: 0.5em; margin-left: 0.5em; font-size: 20px; font-weight: bold;">Add Subcategory</p>
   <button type="button" class="close" data-dismiss="modal" aria-label="Close">
     <span aria-hidden="true">&times;</span>
   </button>
@@ -15,26 +15,26 @@
   <div class="form-group row">
     <label class="col-sm-4 col-form-label" style="font-weight: bold;">ID</label>
     <div class="col-sm-8">
-      <input type="text" name="id_category" class="form-control">
+      <input type="text" name="id_subcategory" class="form-control">
     </div>
   </div>
   <div class="form-group row">
     <label class="col-sm-4 col-form-label" style="font-weight: bold;">NAME</label>
     <div class="col-sm-8">
-      <input type="text" name="name_brand" class="form-control">
+      <input type="text" name="name" class="form-control">
     </div>
   </div>
 
   <div class="form-group row">
-    <label class="col-sm-4 col-form-label" style="font-weight: bold; margin-right: 1em;">BRAND ID</label>
-    <select name="id_brand" class="custom-select" style="width: 200px;">
-      <option selected>Select Brand</option>
+    <label class="col-sm-4 col-form-label" style="font-weight: bold; margin-right: 1em;">PARENT CATEGORY</label>
+    <select name="parent_category" class="custom-select" style="width: 200px;">
+      <option selected>Select Category</option>
       <?php
       //------------ disini buat nampilin data yang di bawa tadi ...
       //------------ 
-        foreach($select_brand->result() as $r_brand){
+        foreach($select_category->result() as $r_category){
           ?>
-           <option value="<?php echo $r_brand->ID?>"><?php echo $r_brand->ID?></option>
+           <option value="<?php echo $r_category->ID?>"><?php echo $r_category->ID?></option>
           <?php
         }
       ?>

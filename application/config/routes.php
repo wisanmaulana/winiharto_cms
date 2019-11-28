@@ -79,6 +79,9 @@ $route['cms/brand'] = 'Brand_cms';
 $route['cms/history'] = 'History_cms';
 $route['cms/news'] = 'News_cms';
 $route['cms/category'] = 'Category_cms';
+$route['cms/subcategory'] = 'Subcategory_cms';
+$route['cms/our_products'] = 'Our_Products_cms';
+
 
 // $route['login'] = 'CMS/index';
 // $route['signin'] = 'CMS/login';

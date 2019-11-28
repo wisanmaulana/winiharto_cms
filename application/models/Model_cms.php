@@ -263,14 +263,7 @@
     else return 0;
   }
 
-  // function add_brand($idBrand, $nameBrand,$descBrand){
-  //   $query = "INSERT INTO g_brand(ID,NAME,DESCRIPTION) values ('".$idBrand."','".$nameBrand."','".$descBrand."')";
-  //   $results = $this->db->query($query);
-  //   if($results) return 1;
-  //   else return 0;
-  // }
-
-   function update_category($id,$idCategory,$nameBrand,$idBrand){
+  function update_category($id,$idCategory,$nameBrand,$idBrand){
             $data = array(
                     'ID' => $idCategory,
                     'NAME' => $nameBrand,
@@ -295,5 +288,110 @@
 
           return $query;
         }
+// --------------------------------- end category --------------------------------
+// --------------------------------- start subcategory --------------------------------
+  function select_subcategory(){
+    $this->db->select('*');
+    $this->db->from('g_brand_subcategory');
+    // $this->db->where('is_active','1');
+
+    $query = $this->db->get();
+
+    return $query;
+  }
+
+  function add_subcategory($idSubcategory,$name,$parentCategory){
+    $query = "INSERT INTO g_brand_subcategory(ID,NAME,PARENT_CATEGORY) values ('".$idSubcategory."','".$name."','".$parentCategory."')";
+    $results = $this->db->query($query);
+    if($results) return 1;
+    else return 0;
+  }
+
+  function update_subcategory($id,$idSubcategory,$name,$parentCategory){
+            $data = array(
+                    'ID' => $idSubcategory,
+                    'NAME' => $name,
+                    'PARENT_CATEGORY' => $parentCategory
+            );
+            $this->db->where('REC_ID', $id);
+            $this->db->update('g_brand_subcategory', $data);
+         }
+
+        function delete_subcategory($id){
+            $this->db->where('REC_ID', $id);
+            $this->db->delete('g_brand_subcategory');
+        }
+
+         function singleSubcategory($id) {
+
+          $this->db->select('*');
+          $this->db->from('g_brand_subcategory');
+          $this->db->where('REC_ID', $id);
+
+          $query = $this->db->get();
+
+          return $query;
+        }
+
+// --------------------------------- end subcategory --------------------------------
+// --------------------------------- start subcategory --------------------------------
+  function select_our_products(){
+    $this->db->select('*');
+    $this->db->from('p_new_products');
+    // $this->db->where('is_active','1');
+
+    $query = $this->db->get();
+
+    return $query;
+  }
+
+  function add_products($name,$productID,$productBrand,$productCategory,$productSubcategory,$productSummary,$image){
+    $query = "INSERT INTO p_new_products(NAME,PRODUCT_ID,BRAND_CATEGORY,BRAND_ID,BRAND_SUBCATEGORY,SUMMARY,IMAGES) values ('".$name."','".$productID."','".$productBrand."','".$productCategory."','".$productSubcategory."','".$productSummary."','".$image."')";
+    $results = $this->db->query($query);
+    if($results) return 1;
+    else return 0;
+  }
+  function update_products($id,$name,$productID,$productBrand,$productCategory,$productSubcategory,$productSummary,$image){
+            $data = array(
+                    'NAME' => $name,
+                    'PRODUCT_ID' => $productID,
+                    'BRAND_CATEGORY' => $productBrand,
+                    'BRAND_ID' => $productCategory,
+                    'BRAND_SUBCATEGORY' => $productSubcategory,
+                    'SUMMARY' => $productSummary,
+                    'IMAGES' => $image
+
+            );
+            $this->db->where('PROD_ID', $id);
+            $this->db->update('p_new_products', $data);
+         }
+  function update_produk($id,$name,$productID,$productBrand,$productCategory,$productSubcategory,$productSummary){
+            $data = array(
+                    'NAME' => $name,
+                    'PRODUCT_ID' => $productID,
+                    'BRAND_CATEGORY' => $productBrand,
+                    'BRAND_ID' => $productCategory,
+                    'BRAND_SUBCATEGORY' => $productSubcategory,
+                    'SUMMARY' => $productSummary
+            );
+            $this->db->where('PROD_ID', $id);
+            $this->db->update('p_new_products', $data);
+         }
+
+        function delete_products($id){
+            $this->db->where('PROD_ID', $id);
+            $this->db->delete('p_new_products');
+        }
+
+         function singleProducts($id) {
+
+          $this->db->select('*');
+          $this->db->from('p_new_products');
+          $this->db->where('PROD_ID', $id);
+
+          $query = $this->db->get();
+
+          return $query;
+        }
 }
-// --------------------------------- start brand --------------------------------
+// --------------------------------- end subcategory --------------------------------

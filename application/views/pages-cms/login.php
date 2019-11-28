@@ -24,7 +24,7 @@
   <div class="container">
     <div class="card card-login mx-auto mt-5" style="background-color: white;">
       <div class="d-flex justify-content-center">
-        <img src="<?php echo base_url('assets/template/images/logo.png'); ?>" alt="wh Logo" style="width: 80%;">
+        <img src="<?php echo base_url('assets/template/images/logo.png'); ?>" alt="wh Logo" style="width: 60%;">
       </div>
       <!-- <div class="card-header">Login CMS</div> -->
       <div class="card-body">
