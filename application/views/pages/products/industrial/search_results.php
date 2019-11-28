@@ -62,13 +62,15 @@
 		</div>
 		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 " style="margin-top: 40px;">
 			<div class="row">
-						<?php if($query_product->num_rows() == 0): ?>
-							<div class="col-lg-12" style="padding-left: 0px; padding-top: 15px;">
-								<p style="padding-left: 50px; font-size: 20px;">No Result for <?php echo $keyword; ?></p>	
-							</div>
-						<?php else: ?> 
 						<?php
-							foreach($query_product->result() as $row): ?>
+							if($query_product->num_rows() == 0) {
+								echo '<div class="col-lg-4" style="padding-left: 0px; padding-top: 15px;">';
+								echo '<p style="padding-left: 50px; font-size: 20px;">No Result for '.$keyword.'</p>';
+								echo '</div>';
+							} else {
+						?>
+						<?php
+								foreach($query_product->result() as $row): ?>
 									<div class="row" style="margin: 20px 0; width: 100%;">
 											<div class="col-lg-4">
 												<img width="211" height="167" src="<?php echo $row->IMAGES; ?>" style="margin: 5em;"/>
@@ -85,8 +87,15 @@
 												</div>
 											</div>
 									</div>
-						<?php endforeach; ?>
-						<?php endif; ?>
+						<?php endforeach;
+					} ?>
+			</div>
+			<div class="row">
+					<div class="col">
+							<!--Tampilkan pagination-->
+							<?php echo $pageLinks; ?>
+							<center><?php echo $jml_list;?> out of <?php echo $total;?></center>
+					</div>
 			</div>
 	</div>
 
