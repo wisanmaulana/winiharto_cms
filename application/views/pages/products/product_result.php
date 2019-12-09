@@ -66,32 +66,32 @@
 		<div class="row mgtop15px">
 			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="font-weight: bold;font-size: 18px;text-align: center; padding-top: 25px;">
 				<span style="font-weight: bold;font-size: 20px;text-align: center; padding-top: 25px;" class="product_title">
-				<?php foreach($query_title->result() as $title) { 
-						echo $title->NAME;	
-				} ?>
-				</span>
+				<?php foreach($query_title as $row) {
+						echo $row->NAME;
+				}?></span>
 			</div>
 		</div>
 		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 " style="margin-top: 40px;">
 			<div class="row">
-			<?php foreach($query_product->result() as $row) { ?>
-				<div class="row" style="margin: 20px 0; width: 100%;">
-					<div class="col-lg-4">
-						<img width="211" height="167" src="<?php echo $row->IMAGES; ?>" style="margin: 5em;"/>
-					</div>
-					<div class="col-lg-8" style="padding-top: 4em;">
-						<div class="row">
-							<h4><?php echo $row->NAME; ?></h4>
-						</div>
-						<div class="row" style="margin-top: -0.6em;">
-							<h5><span class="product_title">Brand :</span> <?php echo $row->BRAND_CATEGORY; ?></h5>
-						</div>
-						<div class="row">
-							<?php echo $row->SUMMARY; ?>
-						</div>
-					</div>
-				</div>
-            <?php } ?>
+            <?php
+                foreach($query_product as $row) { ?>
+									<div class="row" style="margin: 20px 0; width: 100%;">
+											<div class="col-lg-4">
+												<img width="211" height="167" src="<?php echo $row->IMAGES; ?>" style="margin: 5em;"/>
+											</div>
+											<div class="col-lg-8" style="padding-top: 4em;">
+												<div class="row">
+													<h4><?php echo $row->NAME; ?></h4>
+												</div>
+												<div class="row" style="margin-top: -0.6em;">
+													<h5><span class="product_title">Brand :</span> <?php echo $row->BRAND_CATEGORY; ?></h5>
+												</div>
+												<div class="row">
+													<?php echo $row->SUMMARY; ?>
+												</div>
+											</div>
+									</div>
+            <?php }?>
 			</div>
 	</div>
 </div>

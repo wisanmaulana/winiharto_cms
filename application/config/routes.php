@@ -60,13 +60,11 @@ $route['contacts'] = 'Contacts';
 $route['distribution'] = 'Distribution';
 
 /* BRAND PRODUCTS */
-$route['about_us'] = 'About/about_us';
-$route['vision'] = 'About/vision';
-$route['customers'] = 'About/customers';
+$route['brand/:any'] = 'Product/brand_subcategory/$1';
+$route['brand/:any/:any'] = 'Product/brand_category/$1';
 
-$route['brand']     = 'Product/brand';
-$route['product']   = 'Product/products';
-$route['products']  = 'Product/search';
+/* OUR PRODUCT ROUTE */
+$route['products/:any'] = 'Productproduct_category/$1';
 
 /* START CMS ROUTE */
 $route['cms'] = 'CMS';
