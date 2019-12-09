@@ -1,15 +1,11 @@
 <?php if(!defined("BASEPATH")) exit("Hack Attempt");
 class Category_cms extends CI_Controller {
 
-	public function index(){
+	public function index() {
+
 		$this->load->model("Model_cms");
 		$this->load->helper('form');
-		$page = 'category';
-		        if ( ! file_exists(APPPATH.'/views/pages-cms/'.$page.'.php'))
-        {
-                // Whoops, we don't have a page for that!
-                show_404();
-        }
+		$this->output->enable_profiler(TRUE);
 
 		$data['page'] = 'Category';
 		$data['category'] = $this->Model_cms->select_category();
@@ -20,8 +16,7 @@ class Category_cms extends CI_Controller {
         $this->load->view('templates-cms/footer');
 	}
 
-	public function getAddCategory()
-	{
+	public function getAddCategory() {
 		$this->load->model("Model_cms");
 		$this->load->helper('form');
 
@@ -31,9 +26,6 @@ class Category_cms extends CI_Controller {
 	}
 
 	function addCategory(){
-		 // $this->output->enable_profiler(TRUE);
-
-    	//date_default_timezone_set('Asia/Jakarta');
 
 		$this->load->model('Model_cms','cms');
 		$idCategory = $this->input->post('id_category');

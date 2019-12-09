@@ -30,7 +30,7 @@
                 <tbody>
                   <?php
                   $no = 1;
-                  foreach($category->result() as $dt){
+                  foreach($category->result() as $dt) {
                       $id = $dt->REC_ID;
                       $idCategory = $dt->ID;
                       $name = $dt->NAME;
